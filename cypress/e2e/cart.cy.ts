@@ -17,6 +17,7 @@ it('Agregar items al carrito', () => {
     cy.get('#navbarExample').should('be.visible');
     // verificar elementos (productos en la pagina)
     cy.get('#tbodyid .card').should('exist');
+
  });
 
 
