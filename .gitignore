@@ -1,0 +1,18 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Salida de Cypress (screenshots y videos)
+cypress/screenshots/
+cypress/videos/
+
+# Configuración del sistema / editor
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno (si usas variables privadas)
+.env
